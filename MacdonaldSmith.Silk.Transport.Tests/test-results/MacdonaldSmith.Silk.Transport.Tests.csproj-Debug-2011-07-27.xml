@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2011-07-27T16:08:47</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="MacdonaldSmith">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2011-07-27T16:08:47</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Silk">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2011-07-27T16:08:47</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="Transport">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2011-07-27T16:08:47</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Tests">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2011-07-27T16:08:47</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Child test failed</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="TransportTests">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2011-07-27T16:08:47</TestDate>
+                          <Status>Failure</Status>
+                          <TotalFailures>1</TotalFailures>
+                          <TotalSuccess>0</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                          <Message>Child test failed</Message>
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="TcpServerTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T15:46:53</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use
+TearDown : System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
+  ----&gt; System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0004b] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:32 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:23 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+--TearDown
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Core.TestMethod.doTearDown (NUnit.Core.TestCaseResult testResult) [0x00000] in &lt;filename unknown&gt;:0 
+--NullReferenceException
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TearDown () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:29 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T15:52:50</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use
+TearDown : System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
+  ----&gt; System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0004b] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:32 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:23 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+--TearDown
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Core.TestMethod.doTearDown (NUnit.Core.TestCaseResult testResult) [0x00000] in &lt;filename unknown&gt;:0 
+--NullReferenceException
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TearDown () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:29 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T16:08:47</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Could not connect to the server within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x00051] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:45 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T16:12:43</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Could not connect to the server within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x0003f] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:47 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T16:17:45</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000ad] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:44386
+Client connected
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T17:09:43</TestDate>
+                              <Status>Ignored</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T17:13:49</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000b8] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:71 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:42450
+Client connected
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T17:30:14</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use
+TearDown : System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
+  ----&gt; System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0004b] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:32 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:24 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+--TearDown
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Core.TestMethod.doTearDown (NUnit.Core.TestCaseResult testResult) [0x00000] in &lt;filename unknown&gt;:0 
+--NullReferenceException
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TearDown () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:31 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T17:28:22</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Connection refused</Message>
+                              <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-07-27T17:49:28</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000b8] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:71 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:59574
+Client connected
+Test Finally: closing tcpClient
+Message received on server
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                          <Tests />
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

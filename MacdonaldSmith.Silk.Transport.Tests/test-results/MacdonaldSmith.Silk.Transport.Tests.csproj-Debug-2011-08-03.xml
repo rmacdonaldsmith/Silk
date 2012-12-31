@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tests>
+    <TestRecord Name="MacdonaldSmith">
+      <Tests>
+        <TestRecord Name="Silk">
+          <Tests>
+            <TestRecord Name="Transport">
+              <Tests>
+                <TestRecord Name="Tests">
+                  <Tests>
+                    <TestRecord Name="TransportTests">
+                      <Tests>
+                        <TestRecord Name="TcpServerTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T06:38:05</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Unix transport error.</Message>
+                              <StackTrace>  at Mono.Remoting.Channels.Unix.UnixMessageIO.ReceiveMessageStatus (System.IO.Stream networkStream, System.Byte[] buffer) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T06:41:31</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000c2] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:72 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:34044
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Got message buffer from network stream.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T06:46:06</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000c2] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:72 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:44493
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Got message buffer from network stream.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T06:54:25</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000c2] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:72 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:44457
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T06:59:50</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:36392
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T07:01:10</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000cd] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:44052
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T07:01:59</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:51423
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T14:56:28</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000c9] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:51023
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T14:57:11</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:40590
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:11:02</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000cd] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:54657
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:11:26</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000d4] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:58485
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:11:56</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000d9] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:60299
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:30:25</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000d2] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:75 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:60956
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:38:45</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Did not receive a message from the client within 500ms.</Message>
+                              <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail (System.String message) [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.TcpServerTest () [0x000c6] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:41909
+Client connected
+Reading message buffer...
+Did not receive a message from the client within a reasonable time.
+Test Finally: closing tcpClient
+Finished reading message buffer.
+Message received on server: Hello World!
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-08-03T15:40:03</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:41545
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Test Finally: closing tcpClient
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

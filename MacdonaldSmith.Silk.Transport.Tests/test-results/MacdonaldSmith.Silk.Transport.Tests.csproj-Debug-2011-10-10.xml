@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2011-10-10T13:58:39</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-10-10T14:12:30</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-10-10T14:22:46</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="MacdonaldSmith">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2011-10-10T13:58:39</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2011-10-10T14:12:30</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2011-10-10T14:22:46</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Silk">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2011-10-10T13:58:39</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2011-10-10T14:12:30</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2011-10-10T14:22:46</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="Transport">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2011-10-10T13:58:39</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2011-10-10T14:12:30</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2011-10-10T14:22:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Tests">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2011-10-10T13:58:39</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-10-10T14:12:30</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-10-10T14:22:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-10-10T14:51:27</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>3</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-10-10T14:52:17</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>3</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="TransportTests">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T13:58:39</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:12:30</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:22:46</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:36:14</TestDate>
+                          <Status>Success Failure</Status>
+                          <TotalFailures>2</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                          <Message>Child test failed</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:37:30</TestDate>
+                          <Status>Success Failure</Status>
+                          <TotalFailures>2</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                          <Message>Child test failed</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:48:04</TestDate>
+                          <Status>Success Failure</Status>
+                          <TotalFailures>2</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                          <Message>Child test failed</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:51:24</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:51:27</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="TcpServerTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T13:58:39</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:38245
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:46888
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:12:30</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:48833
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:46294
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:22:46</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.07ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:49876
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:45325
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:36:14</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:13</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:47896
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:58280
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:30</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:47:08</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:46122
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:35961
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:48:04</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:24</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.07ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:36269
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:54378
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:27</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.08ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:54341
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:38048
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                        <TestRecord Name="BadPortInConstructorTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:32:08</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.ArgumentException : Port must be a positive integer.</Message>
+                              <StackTrace>  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0007c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:37 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.BadPortInConstructorTest () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:185 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:35:35</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:36:14</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:25</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:30</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:47:18</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:48:04</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                        <TestRecord Name="NullTcpListenerInConstructorTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:36:14</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:04</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:18</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:37:30</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:47:13</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:48:04</TestDate>
+                              <Status>Failure</Status>
+                              <TotalFailures>1</TotalFailures>
+                              <TotalSuccess>0</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>System.Net.Sockets.SocketException : Address already in use</Message>
+                              <StackTrace>  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start (Int32 backlog) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Net.Sockets.TcpListener.Start () [0x00000] in &lt;filename unknown&gt;:0 
+  at MacdonaldSmith.Silk.Transport.TcpServer..ctor (Int32 port, ITcpServerListener tcpServerListener) [0x0005c] in /home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs:35 
+  at MacdonaldSmith.Silk.Transport.Tests.TransportTests.SetUp () [0x00000] in /home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                    <TestRecord Name="TcpServerTests">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:51:20</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>2</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:51:27</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>2</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:52:17</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>2</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="BadPortInConstructorTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:20</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:27</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:52:17</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                        <TestRecord Name="NullTcpListenerInConstructorTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:20</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:51:27</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:52:17</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                    <TestRecord Name="TcpServerRunTests">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2011-10-10T14:52:17</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="TcpServerTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2011-10-10T14:52:17</TestDate>
+                              <Status>Success</Status>
+                              <TotalFailures>0</TotalFailures>
+                              <TotalSuccess>1</TotalSuccess>
+                              <TotalIgnored>0</TotalIgnored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                              <ConsoleOutput>Tcp Server mounted, listening on port 13000
+Connecting client: 127.0.0.1:47463
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello World!
+Pulsed, message recieved.
+Connecting client: 127.0.0.1:49958
+Client connected
+Reading message buffer...
+Finished reading message buffer.
+Message received on server: Hello Again.
+Pulsed, message recieved.
+</ConsoleOutput>
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

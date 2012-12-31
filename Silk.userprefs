@@ -1,0 +1,41 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MacdonaldSmith.Transport/TcpServer.cs">
+    <Files>
+      <File FileName="MacdonaldSmith.Transport/TcpServer.cs" Line="171" Column="1" />
+      <File FileName="MacdonaldSmith.Silk.ViewTable/IViewTable.cs" Line="8" Column="23" />
+      <File FileName="MacdonaldSmith.Silk.ViewTable/ViewTable.cs" Line="16" Column="40" />
+      <File FileName="MacdonaldSmith.Silk.ViewTable/ColumnBase.cs" Line="17" Column="18" />
+      <File FileName="MacdonaldSmith.Transport/WCF/BusConnectionManager.cs" Line="22" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MacdonaldSmith.Silk.Transport" expanded="True">
+            <Node name="WCF" expanded="True" />
+            <Node name="TcpServer.cs" selected="True" />
+          </Node>
+          <Node name="MacdonaldSmith.Silk.ViewTable" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/robert/Projects/Silk/MacdonaldSmith.Transport/TcpServer.cs" line="171" />
+      <Breakpoint file="/home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs" line="47" />
+      <Breakpoint file="/home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs" line="137" />
+      <Breakpoint file="/home/robert/Projects/Silk/MacdonaldSmith.Silk.Transport.Tests/TransportTests.cs" line="155" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
